@@ -10,6 +10,8 @@
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "typecheck": "contentlayer build && tsc --noEmit",
     "format:write": "prettier --write \"**/*.{ts,tsx,mdx}\" --cache",
     "format:check": "prettier --check \"**/*.{ts,tsx,mdx}\" --cache",
@@ -142,7 +144,8 @@
     "tsx": "^4.16.2",
     "typescript": "^5.5.3",
     "unist-builder": "^4.0.0",
-    "unist-util-visit": "^5.0.0"
+    "unist-util-visit": "^5.0.0",
+    "vitest": "^2.1.9"
   },
   "overrides": {
     "next-contentlayer": {
