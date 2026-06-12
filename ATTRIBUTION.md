@@ -10,6 +10,7 @@ This repo is a practice codebase for the Claude Code 101 course by AI Builder Cl
 ## Changes from upstream
 
 - Added a minimal Vitest test setup (`vitest.config.ts`, `test` script).
+- Removed the upstream GitHub Actions workflow (`.github/workflows/code-check.yml`). CI is not used for the course exercises.
 - Added course files: `README-COURSE.md`, `CLAUDE.md`, and a few deliberately flawed modules used as teaching exercises. Commits prefixed `plant:` mark these.
 
 Everything else is unmodified upstream code. All credit for the application itself goes to the upstream author.
